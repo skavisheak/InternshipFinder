@@ -12,9 +12,8 @@ return(
             </p>
             <div className="pt-10 md:pt-20 sm:pt-16">
                  <button className="px-5 py-2 mx-3 text-xl font-semibold text-black transition duration-200 bg-white rounded-md font-normalshadow hover:bg-gray-300 ">
-                 Get Started
+                    Get Started
                  </button>
-
             </div>
         </div>
    </div>

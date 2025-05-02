@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 
 export const cardContents = [
-    { title: "Card 1", content: "This is the content of Card 1.", icon: <FaSearch /> },
-    { title: "Card 2", content: "This is the content of Card 2.", icon: <FaRegUser /> },
-    { title: "Card 3", content: "This is the content of Card 3.", icon: <FaShoppingBag /> },
+    { title: "Find Opportunities", content: "Search and filter through hundreds of internship opportunities that match your skills and interests", icon: <FaSearch /> },
+    { title: "Manage Your Profile", content: "Create a standout profile highlighting your skills, experience, and educational background", icon: <FaRegUser /> },
+    { title: "Track Applications", content: "Save your favorite internships and keep track of application deadlines and status", icon: <FaShoppingBag /> },
   ];

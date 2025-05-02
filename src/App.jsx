@@ -1,16 +1,17 @@
-import { Cards } from "./Components/Cards"
-import Navbar from "./Components/Navbar"
-
+import { Cards } from "./Components/Cards";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 function App() {
-
-
   return (
-    <main className="min-h-screen text-white bg-gray-100">
-      <Navbar/>
-      <Cards/>
-    </main>
-  )
+    <div className="flex flex-col min-h-screen text-white bg-gray-100">
+      <Navbar />
+      <main className="flex-1">
+        <Cards />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
